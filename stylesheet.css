@@ -1,0 +1,20 @@
+body {
+    background: #333 url('bg1.jpg') center center no-repeat;
+    /*background-color: wheat;*/
+    background-size: cover;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    box-shadow: 0px 10px 15px -8px #000;
+    margin: 40px auto 0;
+    background-color: white;
+    padding: 0;
+}
+
+.square {
+    float: left;
+    box-sizing: border-box;
+}
