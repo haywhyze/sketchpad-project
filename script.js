@@ -16,7 +16,7 @@
 	    $(".square").css("height", pixels + "px");
 	    $(".square").css("width", pixels + "px");
 
-	    $(".square").hover(function() {
+	    $(".square").click(function() {
 	        $(this).css('background-color', "rgb(" + getRandomValue(0, 256) + "," + getRandomValue(0, 256) + "," + getRandomValue(0, 256) + ")");
 
 	    });
